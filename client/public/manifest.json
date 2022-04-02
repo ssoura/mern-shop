@@ -1,0 +1,10 @@
+{
+	"name": "MERN Ecommerce",
+	"short_name": "MERN",
+	"theme_color": "#2c3e50",
+	"orientation": "portrait",
+	"background_color": "#dee2e6",
+	"display": "standalone",
+	"description": "An E-commerce app",
+	"start_url": "/"
+}
