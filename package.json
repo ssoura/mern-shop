@@ -1,0 +1,19 @@
+{
+  "name": "mern-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lerna run start",
+		"server": "lerna run start --scope=server",
+    "data:import": "lerna run data:import --scope=server",
+    "data:del": "lerna run data:del --scope=server",
+		"client": "lerna run start --scope=client"
+  },
+  "author": "sourabh",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "lerna": "^4.0.0"
+  }
+}
